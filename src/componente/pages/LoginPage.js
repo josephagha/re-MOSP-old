@@ -3,7 +3,7 @@ import LoginForm from '../pageElements/login/LoginForm'
 
 const LoginPage = props => {
   return (
-    <div className="content2 loginBackground">
+    <div className="content2 XloginBackground">
       <div className="container pb-5">
         <div className="row">
           <div className="col-xl-8 col-md-6  d-none d-lg-block d-md-block loginTitleMarginTop ">
