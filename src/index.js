@@ -38,8 +38,12 @@ class App extends React.Component {
               exact
               component={loginLink}
             ></Route>
+            <Route
+              path="/"
+              component={ProductPage}
+            ></Route>
 
-            <LoginRoute path="/login" exact component={LoginPage}></LoginRoute>
+            {/*   <LoginRoute path="/login" exact component={LoginPage}></LoginRoute>
             <ProtectedRoute path="/products" component={ProductsPage} />
             <ProtectedRoute
               path="/product"
@@ -52,7 +56,7 @@ class App extends React.Component {
               path="/admin-overview"
               component={AdminOverviewPage}
             />
-            <LoginRoute path="*" component={LoginPage} />
+            <LoginRoute path="*" component={LoginPage} /> */}
           </Switch>
         </div>
 
