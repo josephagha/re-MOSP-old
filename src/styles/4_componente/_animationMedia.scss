@@ -1,0 +1,618 @@
+@import '../2_base/2_base';
+.animationMedia {
+  position: relative;
+}
+
+.donationAnimation {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  display: block;
+}
+.animationBackground {
+  position: relative;
+}
+.window1 {
+  position: absolute;
+  top: 0px;
+  left: 14px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  //  top: -1784px;
+}
+.window2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  // top: -2377px;
+}
+.window3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  // top: -2978px;
+}
+.window4 {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  // top: -3565px;
+}
+.window5 {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  //  top: -4164px;
+}
+.window6 {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  // top: -4756px;
+}
+.flog1 {
+  position: absolute;
+  z-index: 2;
+  top: 6px;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  //  top: -591px;
+}
+.flog2 {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  // top: -1187px;
+}
+.door1 {
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  //  top: -5352px;
+}
+.door2 {
+  position: absolute;
+  top: -16px;
+  left: 1px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  // top: -5952px;
+}
+
+.Range {
+  margin: auto;
+  z-index: 9999;
+  transition: 0.4s all ease-out;
+}
+
+// Small devices
+@media (max-width: 767px) {
+  .rs-range {
+    width: 100%;
+    transition: 0.4s all ease-out;
+  }
+}
+// Galaxy j6 360
+@media (max-width: 360px) {
+  .window1 {
+    position: absolute;
+    top: -7px !important;
+    left: 11px !important;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -1784px;
+  }
+  .window2 {
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2377px;
+  }
+  .window3 {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2978px;
+  }
+  .window4 {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -3565px;
+  }
+  .window5 {
+    position: absolute;
+    top: -6px !important;
+    left: -12px !important;
+    right: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -4164px;
+  }
+  .window6 {
+    position: absolute;
+    top: -6px !important;
+    left: -12px !important;
+    right: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -4756px;
+  }
+}
+// Galaxy S5 360
+@media (max-width: 365px) {
+  .window1 {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -1784px;
+  }
+  .window2 {
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2377px;
+  }
+  .window3 {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2978px;
+  }
+  .window4 {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -3565px;
+  }
+  .window5 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -4164px;
+  }
+  .window6 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -4756px;
+  }
+  .flog1 {
+    position: absolute;
+    z-index: 2;
+    top: 7px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .flog2 {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+  }
+  .door1 {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -5352px;
+  }
+  .door2 {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -5952px;
+  }
+}
+// Pixel 2 411
+@media (max-width: 415px) {
+  .window1 {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -1784px;
+  }
+  .window2 {
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2377px;
+  }
+  .window3 {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2978px;
+  }
+  .window4 {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -3565px;
+  }
+  .window5 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -4164px;
+  }
+  .window6 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -4756px;
+  }
+  .flog1 {
+    position: absolute;
+    z-index: 2;
+    top: 7px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .flog2 {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+  }
+  .door1 {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -5352px;
+  }
+  .door2 {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -5952px;
+  }
+}
+
+@media (max-width: 450px) {
+  .window1 {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -1784px;
+  }
+  .window2 {
+    position: absolute;
+    top: 25px;
+    left: 18px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2377px;
+  }
+  .window3 {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2978px;
+  }
+  .window4 {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -3565px;
+  }
+  .window5 {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -4164px;
+  }
+  .window6 {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -4756px;
+  }
+  .flog1 {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    //  top: -591px;
+  }
+  .flog2 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -1187px;
+  }
+  .door1 {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -5352px;
+  }
+  .door2 {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -5952px;
+  }
+}
+// ipad 768
+@media (max-width: 770px) {
+  .window1 {
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -1784px;
+  }
+  .window2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2377px;
+  }
+  .window3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -2978px;
+  }
+  .window4 {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -3565px;
+  }
+  .window5 {
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -4164px;
+  }
+  .window6 {
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -4756px;
+  }
+  .flog1 {
+    position: absolute;
+    z-index: 2;
+    top: 6px;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    //  top: -591px;
+  }
+  .flog2 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -1187px;
+  }
+  .door1 {
+    position: absolute;
+    top: -11px;
+    left: -2px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    //  top: -5352px;
+  }
+  .door2 {
+    position: absolute;
+    top: -16px;
+    left: 1px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    // top: -5952px;
+  }
+}
+// Medium devices
+@media (min-width: 768px) {
+  .rs-range {
+    width: 380px;
+    transition: 0.4s all ease-out;
+  }
+}
+.rs-range {
+  margin-top: 30px;
+  -webkit-appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-slider-runnable-track {
+    height: 5px;
+    border-radius: 5px;
+    background: $grey;
+    outline: none;
+    -webkit-transition: opacity 0.15s ease-in-out;
+    transition: opacity 0.15s ease-in-out;
+  }
+  &::-moz-range-track {
+    height: 5px;
+    border-radius: 5px;
+    background: $grey;
+    outline: none;
+    -webkit-transition: opacity 0.15s ease-in-out;
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  &::-webkit-slider-thumb {
+    box-shadow: none;
+    border: 0px solid $blue;
+    height: 25px;
+    width: 25px;
+    border-radius: 22px;
+    background: $blue;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+  }
+  &::-moz-range-thumb {
+    box-shadow: none;
+    border: 0px solid $white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 42px;
+    width: 22px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+  }
+  &::-moz-focus-outer {
+    border: 0;
+  }
+}
+
+.donationNumber {
+  margin: auto;
+  span {
+    color: #b9b9b9;
+    font-size: 20px;
+    padding: 14px 30px 0px 30px;
+    display: inline-block;
+  }
+}

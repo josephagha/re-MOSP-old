@@ -1,0 +1,141 @@
+@import '../2_base/2_base';
+/* FORM */
+.optionInput {
+  display: none;
+}
+.selectedLabel {
+  background: $blue !important;
+  color: $white !important;
+}
+.productOptionsItems {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.optionButton {
+  width: 88px;
+  height: 36px;
+  text-align: center;
+  line-height: 34px;
+  border: 1px $blue solid;
+  border-radius: 20px;
+  background: $white;
+  color: $blue;
+  margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
+
+  &:hover {
+    background: $blue;
+    color: $white;
+  }
+}
+
+.overviewLink {
+  color: $blue;
+  font-size: 15px;
+
+  margin: 35px auto;
+  display: block;
+  span {
+    padding-left: 8px;
+  }
+  svg {
+    height: 25px;
+    width: 25px;
+  }
+  &:hover {
+    color: $darkBlue;
+    text-decoration: none;
+  }
+}
+
+// Small devices
+@media (max-width: 767px) {
+  .optionButton {
+    width: 65px;
+  }
+  .orderButton {
+    width: 100%;
+    height: 58px;
+    background-color: $blue;
+    color: $white;
+    border: none;
+    border-radius: 3px;
+  }
+  .orderButtonDisabled {
+    width: 100%;
+    height: 58px;
+    background-color: $lightGrey;
+    color: $darkBlue;
+    border: none;
+    border-radius: 3px;
+  }
+}
+@media (max-width: 1184px) {
+  .optionButton {
+    width: 85px;
+  }
+  .productOptionsItems {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 984px) {
+  .optionButton {
+    width: 60px;
+  }
+}
+@media (max-width: 764px) {
+  .optionButton {
+    width: 23%;
+  }
+}
+@media (max-width: 404px) {
+  .optionButton {
+    width: 22%;
+  }
+}
+// Medium devices
+@media (min-width: 768px) {
+  .orderButton {
+    width: 380px;
+    height: 58px;
+    background-color: $blue;
+    color: $white;
+    border: none;
+    border-radius: 3px;
+  }
+  .orderButtonDisabled {
+    width: 380px;
+    height: 58px;
+    background-color: $lightGrey;
+    color: $darkBlue;
+    border: none;
+    border-radius: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .optionButton {
+    width: 23%;
+  }
+  .orderButton {
+    width: 100%;
+    height: 58px;
+    background-color: $blue;
+    color: $white;
+    border: none;
+    border-radius: 3px;
+  }
+  .orderButtonDisabled {
+    width: 100%;
+    height: 58px;
+    background-color: $lightGrey;
+    color: $darkBlue;
+    border: none;
+    border-radius: 3px;
+  }
+}

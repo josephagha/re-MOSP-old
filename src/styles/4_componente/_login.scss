@@ -1,0 +1,97 @@
+@import '../2_base/2_base';
+.login {
+  min-height: 468px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+  background-color: $white;
+  margin-top: 15%;
+  padding: 38px 40px 10px 40px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: $darkBlue;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+    color: $darkBlue;
+    margin-bottom: 40px;
+  }
+
+  .inputContainer {
+    margin-bottom: 15px;
+  }
+
+  .loginErrorMessage {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto auto 20px auto;
+    text-align: center;
+    background: rgba(255, 42, 42, 0.712);
+    color: $white;
+    font-size: 12px;
+  }
+}
+
+.loginInput {
+  background: none;
+  font-size: 15px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  height: 43px;
+  border-radius: 5px;
+  border: 1px solid $grey;
+
+  &:focus {
+    outline: none;
+    border: 1px solid $blue;
+    color: #000 !important;
+  }
+  &:focus ~ .loginLabel,
+  &:valid ~ .loginLabel {
+    top: -9px;
+    font-size: 12px;
+    color: $blue;
+    background: $white;
+    padding: 0px 4px;
+  }
+}
+
+.loginLabel {
+  color: $darkGrey;
+  background: $white;
+  margin-left: -3px;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 10px;
+  transition: 300ms ease all;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.submit {
+  display: block;
+  width: 160px;
+  height: 40px;
+  margin: 40px auto 20px auto;
+  color: $white;
+  border: none;
+  border-radius: 3px;
+  background-color: $blue;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}

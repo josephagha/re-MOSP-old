@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+$xxxl_D: 60px;
+$xxl_D: 36px;
+$xl_D: 24px;
+$l_D: 18px;
+$m_D: 15px;
+$s_D: 15px;
+$xs_D: 12px;
+$xxs_D: 10px;
+$xxxs_D: 8px;
+
+$xxxl_M: 30px;
+$xxl_M: 24px;
+$xl_M: 18px;
+$l_M: 16px;
+$m_M: 15px;
+$s_M: 12px;
+$xs_M: 12px;
+$xxs_M: 10px;
+$xxxs_M: 8px;
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+  .fontXxxl {
+    font-size: $xxxl_M;
+    font-weight: bold;
+  }
+  .fontXxl {
+    font-size: $xxl_M;
+    font-weight: bold;
+  }
+  .fontXl {
+    font-size: $xl_M;
+    font-weight: bold;
+  }
+  .fontL {
+    font-size: $l_M;
+    font-weight: bold;
+  }
+  .fontM {
+    font-size: $m_M;
+  }
+  .fontS {
+    font-size: $s_M;
+  }
+  .fontXs {
+    font-size: $xs_M;
+  }
+  .fontXxs {
+    font-size: $xxs_M;
+  }
+  .fontXxxs {
+    font-size: $xxxs_M;
+  }
+
+  $fontXxxl: 30px;
+  $fontXxl: 24px;
+  $fontXl: 18px;
+  $fontL: 16px;
+  $fontM: 15px;
+  $fontS: 12px;
+  $fontXs: 12px;
+  $fontXxs: 10px;
+  $fontXxxs: 8px;
+}
+
+@media (min-width: 768px) {
+  .fontXxxl {
+    font-size: $xxxl_D;
+    font-weight: bold;
+  }
+  .fontXxl {
+    font-size: $xxl_D;
+    font-weight: bold;
+  }
+  .fontXl {
+    font-size: $xl_D;
+    font-weight: bold;
+  }
+  .fontL {
+    font-size: $l_D;
+    font-weight: bold;
+  }
+  .fontM {
+    font-size: $m_D;
+    font-weight: bold;
+  }
+  .fontS {
+    font-size: $s_D;
+  }
+  .fontXs {
+    font-size: $xs_D;
+  }
+  .fontXxs {
+    font-size: $xxs_D;
+  }
+  .fontXxxs {
+    font-size: $xxxs_D;
+  }
+
+  $fontXxxl: 60px;
+  $fontXxl: 36px;
+  $fontXl: 24px;
+  $fontL: 18px;
+  $fontM: 15px;
+  $fontS: 15px;
+  $fontXs: 12px;
+  $fontXxs: 10px;
+  $fontXxxs: 8px;
+}

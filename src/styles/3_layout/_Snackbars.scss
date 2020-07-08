@@ -1,0 +1,21 @@
+@import '../2_base/2_base';
+
+.errorMessage {
+  max-width: 450px;
+  border-radius: 3px;
+  padding: 28px;
+  color: $white;
+  background-color: #e74502;
+}
+
+.errorMessageIcon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.errorMessageText {
+  position: relative;
+  top: 2px;
+}

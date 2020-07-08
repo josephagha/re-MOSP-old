@@ -1,0 +1,81 @@
+@import './typography';
+@import './colors';
+body,
+html {
+  height: 100%;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+.content2 {
+  min-height: calc(100vh - 175px);
+  position: relative;
+}
+.content {
+  min-height: calc(100vh - 125px);
+  position: relative;
+}
+.displayNone {
+  display: none;
+}
+.displayBlock {
+  display: block;
+}
+.blockCenter {
+  display: block;
+  margin: auto;
+}
+.center {
+  text-align: center;
+}
+.label {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: $darkBlue !important;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.mt-160 {
+  margin-top: 160px;
+}
+
+.vertical-center-70 {
+  min-height: 70%;
+  min-height: calc(70vh);
+
+  display: flex;
+  align-items: center;
+}
+.vertical-center-50 {
+  min-height: 50%;
+  min-height: calc(50vh);
+
+  display: flex;
+  align-items: center;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

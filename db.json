@@ -1,0 +1,68 @@
+{
+  "login": {
+    "paxId": "190813769",
+    "embarkationDate": "2019-06-01",
+    "disembarkationDate": "2010-12-31",
+    "bookingNumber": "190813769",
+    "bookable": true
+  },
+  "getDetailsOfAllArticles": {
+    "articles": [
+      {
+        "productCode": "MVP01",
+        "source": "ship",
+        "price": "10",
+        "articleState": "Order Requested",
+        "reservationDate": "12-02-2019"
+      },
+      {
+        "productCode": "MVP01",
+        "source": "shop",
+        "price": "20",
+        "articleState": "Bearbeitung",
+        "reservationDate": "12-02-2019"
+      },
+      {
+        "productCode": "MVP01",
+        "source": "shop",
+        "price": "100",
+        "articleState": "Bearbeitung",
+        "reservationDate": "12-02-2019"
+      },
+      {
+        "productCode": "MVP01",
+        "source": "ship",
+        "price": "50",
+        "articleState": "Order Requested",
+        "reservationDate": "12-02-2019"
+      }
+    ]
+  },
+  "getProductDetails": {
+    "currencyCode": "€",
+    "availableSlotsCount": "100",
+    "prices": [
+      {
+        "priceFrom": "10"
+      },
+      {
+        "priceFrom": "20"
+      },
+      {
+        "priceFrom": "50"
+      },
+      {
+        "priceFrom": "100"
+      }
+    ],
+    "productCode": "mvp01"
+  },
+  "addProduct": {
+    "paxId": "1234567",
+    "embarkationDate": "2019,11,25",
+    "disembarkationDate": "2019,11,25",
+    "bookingNumber": "1234567",
+    "price": "50",
+    "productCode": "mvp01"
+  }
+}

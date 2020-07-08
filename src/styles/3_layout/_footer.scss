@@ -1,0 +1,31 @@
+footer {
+  height: 120px;
+  background-color: $lightGrey;
+  padding-top: 40px;
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: $darkGrey;
+    text-align: center;
+  }
+}
+.footerUrl {
+  width: 182px;
+  margin: auto;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  span {
+    font-size: 12px;
+    display: block;
+    padding: 0px 4px;
+    text-decoration: none;
+    color: $blue;
+  }
+}

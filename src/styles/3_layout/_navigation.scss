@@ -1,0 +1,52 @@
+@import '../2_base/2_base';
+
+.navbar {
+  z-index: 999999;
+  height: 50px;
+  background-color: $white;
+  border-bottom: solid 1px $grey;
+}
+.nav-link {
+  color: $darkBlue;
+  font-size: 15px;
+}
+.menuMobile {
+  position: absolute;
+  z-index: 888888;
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 10px 20px 20px 20px;
+  background-color: $white;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 2px 10px #00000036;
+  transition: all ease 0.2s;
+}
+.aidaLogoMobile {
+  display: none;
+}
+
+.userOptionsList {
+  text-align: center;
+  width: 90px;
+  padding: 10px;
+  background-color: $white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px #00000036;
+  position: relative;
+  top: -1px;
+  left: -58px;
+  color: $darkBlue;
+}
+@media (max-width: 991px) {
+  .navbar {
+    height: 70px;
+  }
+  .aidaLogo {
+    display: none;
+  }
+  .aidaLogoMobile {
+    display: block;
+    width: 70px;
+    height: 50px;
+  }
+}
